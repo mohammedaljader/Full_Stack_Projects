@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.project.joboffers.ServiceMockTests.jobServiceTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2022-01-14T14:54:01" hostname="LAPTOP-0C4946E5" time="0.092">
+  <properties/>
+  <testcase name="addJob_WithNullFile()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.057"/>
+  <testcase name="findAllJobsByCategory_WithUnCorrectCategoryId_returnNull()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.003"/>
+  <testcase name="getJob_WithCorrectId_ReturnCorrectJob()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.002"/>
+  <testcase name="deleteJob_WithInvalidId_returnNull()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.003"/>
+  <testcase name="addJob()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.003"/>
+  <testcase name="findAllJobsByCategory_WithCorrectCategoryId_returnListOfJobs()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.002"/>
+  <testcase name="addJob_WithNullValuesOfCategoryAndUser()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.003"/>
+  <testcase name="getJobList()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.002"/>
+  <testcase name="deleteJob()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.002"/>
+  <testcase name="editJob_withInvalidId()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.003"/>
+  <testcase name="getAllJobsByUser_WithInvalidUsername()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.003"/>
+  <testcase name="getAllJobsByUser()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.002"/>
+  <testcase name="editJob_withCorrectId()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.003"/>
+  <testcase name="getJob_WithUnCorrectId_ReturnUnCorrectJob()" classname="org.project.joboffers.ServiceMockTests.jobServiceTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

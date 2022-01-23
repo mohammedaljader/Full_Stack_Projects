@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.project.joboffers.StubTests.FakeDataCategoryTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-01-14T14:54:01" hostname="LAPTOP-0C4946E5" time="0.007">
+  <properties/>
+  <testcase name="AddCategory_returnFalseTest()" classname="org.project.joboffers.StubTests.FakeDataCategoryTests" time="0.001"/>
+  <testcase name="EditCategory_returnFalseTest()" classname="org.project.joboffers.StubTests.FakeDataCategoryTests" time="0.0"/>
+  <testcase name="DeleteCategory_returnTrueTest()" classname="org.project.joboffers.StubTests.FakeDataCategoryTests" time="0.001"/>
+  <testcase name="GetCategory_returnNullObjectTest()" classname="org.project.joboffers.StubTests.FakeDataCategoryTests" time="0.0"/>
+  <testcase name="AddCategory_returnTrueTest()" classname="org.project.joboffers.StubTests.FakeDataCategoryTests" time="0.001"/>
+  <testcase name="EditCategory_returnTrueTest()" classname="org.project.joboffers.StubTests.FakeDataCategoryTests" time="0.001"/>
+  <testcase name="GetCategory_returnTheCorrectCategoryTest()" classname="org.project.joboffers.StubTests.FakeDataCategoryTests" time="0.001"/>
+  <testcase name="DeleteCategory_returnFalseTest()" classname="org.project.joboffers.StubTests.FakeDataCategoryTests" time="0.0"/>
+  <testcase name="GetAllCategories_returnAllCategoriesTest()" classname="org.project.joboffers.StubTests.FakeDataCategoryTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

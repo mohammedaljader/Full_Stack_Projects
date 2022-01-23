@@ -1,0 +1,6 @@
+-,r15:54:01.650 [Test worker] INFO org.project.joboffers.Service.UserService - Saving new role test to the database
+-.r15:54:01.659 [Test worker] INFO org.project.joboffers.Service.UserService - Saving new user test to the database
+-/`15:54:01.661 [Test worker] INFO org.project.joboffers.Service.UserService - Fetching user test
+-0n15:54:01.669 [Test worker] INFO org.project.joboffers.Service.UserService - User found in the database: test
+-5m15:54:01.689 [Test worker] ERROR org.project.joboffers.Service.UserService - User not found in the database
+-7`15:54:01.692 [Test worker] INFO org.project.joboffers.Service.UserService - Fetching all users

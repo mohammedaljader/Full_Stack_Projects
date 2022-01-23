@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.project.joboffers.ServiceMockTests.UserServiceTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-01-14T14:54:01" hostname="LAPTOP-0C4946E5" time="0.07">
+  <properties/>
+  <testcase name="saveRole()" classname="org.project.joboffers.ServiceMockTests.UserServiceTests" time="0.031"/>
+  <testcase name="saveUser()" classname="org.project.joboffers.ServiceMockTests.UserServiceTests" time="0.003"/>
+  <testcase name="getUserByUsername()" classname="org.project.joboffers.ServiceMockTests.UserServiceTests" time="0.007"/>
+  <testcase name="loadUserByUsername()" classname="org.project.joboffers.ServiceMockTests.UserServiceTests" time="0.011"/>
+  <testcase name="deleteUser_ReturnTrue()" classname="org.project.joboffers.ServiceMockTests.UserServiceTests" time="0.001"/>
+  <testcase name="editUser_ReturnTrue()" classname="org.project.joboffers.ServiceMockTests.UserServiceTests" time="0.002"/>
+  <testcase name="getRoleByName()" classname="org.project.joboffers.ServiceMockTests.UserServiceTests" time="0.001"/>
+  <testcase name="editPassword_ReturnTrue()" classname="org.project.joboffers.ServiceMockTests.UserServiceTests" time="0.001"/>
+  <testcase name="If the user enter invalid username than get not found exception." classname="org.project.joboffers.ServiceMockTests.UserServiceTests" time="0.002"/>
+  <testcase name="updateRole_returnTrue()" classname="org.project.joboffers.ServiceMockTests.UserServiceTests" time="0.001"/>
+  <testcase name="getUsers()" classname="org.project.joboffers.ServiceMockTests.UserServiceTests" time="0.005"/>
+  <system-out><![CDATA[15:54:01.650 [Test worker] INFO org.project.joboffers.Service.UserService - Saving new role test to the database
+15:54:01.659 [Test worker] INFO org.project.joboffers.Service.UserService - Saving new user test to the database
+15:54:01.661 [Test worker] INFO org.project.joboffers.Service.UserService - Fetching user test
+15:54:01.669 [Test worker] INFO org.project.joboffers.Service.UserService - User found in the database: test
+15:54:01.689 [Test worker] ERROR org.project.joboffers.Service.UserService - User not found in the database
+15:54:01.692 [Test worker] INFO org.project.joboffers.Service.UserService - Fetching all users
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

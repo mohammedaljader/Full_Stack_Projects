@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.project.joboffers.StubTests.FakeDataJobTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-01-14T14:54:01" hostname="LAPTOP-0C4946E5" time="0.003">
+  <properties/>
+  <testcase name="GetJob_returnNullObjectTest()" classname="org.project.joboffers.StubTests.FakeDataJobTests" time="0.0"/>
+  <testcase name="AddJob_returnTrueTest()" classname="org.project.joboffers.StubTests.FakeDataJobTests" time="0.0"/>
+  <testcase name="DeleteJob_returnTrueTest()" classname="org.project.joboffers.StubTests.FakeDataJobTests" time="0.0"/>
+  <testcase name="GetAllJobs_returnAllJobTest()" classname="org.project.joboffers.StubTests.FakeDataJobTests" time="0.0"/>
+  <testcase name="AddJob_returnFalseTest()" classname="org.project.joboffers.StubTests.FakeDataJobTests" time="0.0"/>
+  <testcase name="EditJob_returnFalseTest()" classname="org.project.joboffers.StubTests.FakeDataJobTests" time="0.0"/>
+  <testcase name="EditJob_returnTrueTest()" classname="org.project.joboffers.StubTests.FakeDataJobTests" time="0.0"/>
+  <testcase name="DeleteJob_returnFalseTest()" classname="org.project.joboffers.StubTests.FakeDataJobTests" time="0.001"/>
+  <testcase name="GetJob_returnTheCorrectJobTest()" classname="org.project.joboffers.StubTests.FakeDataJobTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

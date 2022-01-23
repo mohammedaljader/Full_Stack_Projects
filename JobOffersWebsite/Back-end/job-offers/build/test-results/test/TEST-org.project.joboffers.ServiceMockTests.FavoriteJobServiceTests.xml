@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.project.joboffers.ServiceMockTests.FavoriteJobServiceTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-01-14T14:54:01" hostname="LAPTOP-0C4946E5" time="0.065">
+  <properties/>
+  <testcase name="addJobToFavoriteList_WithInvalidUsernameAndJobId_returnFalse()" classname="org.project.joboffers.ServiceMockTests.FavoriteJobServiceTests" time="0.051"/>
+  <testcase name="getALlFavoriteList()" classname="org.project.joboffers.ServiceMockTests.FavoriteJobServiceTests" time="0.003"/>
+  <testcase name="addJobToFavoriteList_WithCorrectUsernameAndJobId_returnTrue()" classname="org.project.joboffers.ServiceMockTests.FavoriteJobServiceTests" time="0.003"/>
+  <testcase name="deleteJobFromFavoriteList_withCorrectId_ReturnTrue()" classname="org.project.joboffers.ServiceMockTests.FavoriteJobServiceTests" time="0.002"/>
+  <testcase name="getALlFavoriteList_WithInvalidUsername_ReturnNull()" classname="org.project.joboffers.ServiceMockTests.FavoriteJobServiceTests" time="0.002"/>
+  <testcase name="deleteJobFromFavoriteList_withInvalidId_ReturnFalse()" classname="org.project.joboffers.ServiceMockTests.FavoriteJobServiceTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

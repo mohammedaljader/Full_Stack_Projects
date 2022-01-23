@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.project.joboffers.ServiceMockTests.CategoryServiceTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-01-14T14:54:00" hostname="LAPTOP-0C4946E5" time="0.578">
+  <properties/>
+  <testcase name="deleteCategory()" classname="org.project.joboffers.ServiceMockTests.CategoryServiceTests" time="0.525"/>
+  <testcase name="addCategory()" classname="org.project.joboffers.ServiceMockTests.CategoryServiceTests" time="0.007"/>
+  <testcase name="getCategory_WithInvalidId_ReturnNull()" classname="org.project.joboffers.ServiceMockTests.CategoryServiceTests" time="0.002"/>
+  <testcase name="deleteCategory_WithInvalidId_returnFalse()" classname="org.project.joboffers.ServiceMockTests.CategoryServiceTests" time="0.001"/>
+  <testcase name="editCategory_WithInvalidId()" classname="org.project.joboffers.ServiceMockTests.CategoryServiceTests" time="0.001"/>
+  <testcase name="editCategory_WithCorrectId()" classname="org.project.joboffers.ServiceMockTests.CategoryServiceTests" time="0.001"/>
+  <testcase name="getCategoryList()" classname="org.project.joboffers.ServiceMockTests.CategoryServiceTests" time="0.032"/>
+  <testcase name="getCategory()" classname="org.project.joboffers.ServiceMockTests.CategoryServiceTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.project.joboffers.ServiceMockTests.JobApplicationServiceTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-01-14T14:54:01" hostname="LAPTOP-0C4946E5" time="0.041">
+  <properties/>
+  <testcase name="getAllJobApplicationsByUser_WithInvalidUsername_ReturnNull()" classname="org.project.joboffers.ServiceMockTests.JobApplicationServiceTests" time="0.017"/>
+  <testcase name="getJobApplicationById_WithInvalidId_returnNothing()" classname="org.project.joboffers.ServiceMockTests.JobApplicationServiceTests" time="0.001"/>
+  <testcase name="getAllJobApplicationsByUser_ReturnAllOfThem()" classname="org.project.joboffers.ServiceMockTests.JobApplicationServiceTests" time="0.001"/>
+  <testcase name="addJobApplication_WithNullFile()" classname="org.project.joboffers.ServiceMockTests.JobApplicationServiceTests" time="0.003"/>
+  <testcase name="addJobApplication_WithInvalid_CategoryId_And_Username()" classname="org.project.joboffers.ServiceMockTests.JobApplicationServiceTests" time="0.006"/>
+  <testcase name="deleteJobApplication_WithInvalidId_returnFalse()" classname="org.project.joboffers.ServiceMockTests.JobApplicationServiceTests" time="0.002"/>
+  <testcase name="getJobApplicationById_returnTheObject()" classname="org.project.joboffers.ServiceMockTests.JobApplicationServiceTests" time="0.002"/>
+  <testcase name="deleteJobApplication_returnTrue()" classname="org.project.joboffers.ServiceMockTests.JobApplicationServiceTests" time="0.002"/>
+  <testcase name="Add_JobApplication_returnTrue()" classname="org.project.joboffers.ServiceMockTests.JobApplicationServiceTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
