@@ -1,0 +1,71 @@
+stages:
+  - build
+  - sonarqube
+  - test
+  - end_to_end_tests
+  - integration_tests
+  - docker
+
+build:
+  stage: build
+  script:
+    -  cd Backend/job-offers
+    -  ./gradlew build -x test 
+    -  ./gradlew.bat --stop
+
+sonarqube:
+  stage: sonarqube
+  image: gradle:jre11-slim
+  variables:
+    SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"  # Defines the location of the analysis task cache
+    GIT_DEPTH: "0"  # Tells git to fetch all the branches of the project, required by the analysis task
+  cache:
+    key: "${CI_JOB_NAME}"
+    paths:
+      - .sonar/cache
+  script: 
+    -  cd Backend/job-offers
+    -  ./gradlew sonarqube
+    -  ./gradlew.bat --stop
+  allow_failure: true
+  only:
+    - main # or the name of your main branch
+
+test:
+  stage: test
+  script:
+    -  cd Backend/job-offers
+    -  ./gradlew test 
+    -  ./gradlew.bat --stop
+
+cypress_tests:
+    stage: end_to_end_tests
+    image: cypress/base:10
+    script:
+      - cd Front-end\job-offers
+      - npm install
+      - npx cypress run
+
+postman_tests:
+    stage: integration_tests
+    script:
+      - cd C:\Users\malja\AppData\Roaming\npm
+      - ./newman run https://www.getpostman.com/collections/3434b5945b7cb672a5ac
+
+
+docker: 
+    stage: docker
+    script: 
+    - cd Front-end\job-offers
+    - docker build -t frontend .
+    - cd ..
+    - cd ..
+    - cd Backend/job-offers
+    - replace "C:\Users\malja\OneDrive\Documenten\S3-individual-project\s3_individual_project\Backend\job-offers\override\prod\application.properties" "C:\Users\malja\OneDrive\Documenten\S3-individual-project\s3_individual_project\Backend\job-offers\src\main\resources"
+    - ./gradlew build -x test
+    - docker build -t backend .
+    - replace "C:\Users\malja\OneDrive\Documenten\S3-individual-project\s3_individual_project\Backend\job-offers\override\test\application.properties" "C:\Users\malja\OneDrive\Documenten\S3-individual-project\s3_individual_project\Backend\job-offers\src\main\resources"
+    - ./gradlew.bat --stop
+
+
+
