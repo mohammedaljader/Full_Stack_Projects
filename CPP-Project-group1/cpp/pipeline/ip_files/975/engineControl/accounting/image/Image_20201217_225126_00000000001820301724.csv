@@ -1,0 +1,2 @@
+ullid;date;time;LocalTime[us];EngineCycleId#;ImageId#;ImageResult$;ImageLengthAnnounced[m]#;ImageLength[m]#;ImageWidth[m]#;MediaType$;PrintMode$;Destination$;JettedInkCyan[ml]#;JettedInkMagenta[ml]#;JettedInkYellow[ml]#;JettedInkBlack[ml]#;AccountedInkCyan[ml]#;AccountedInkMagenta[ml]#;AccountedInkYellow[ml]#;AccountedInkBlack[ml]#;PaperStepMarker$
+00000000001820301724;2020-12-17;22:51:26;2178159150;469;1;Succeeded;5.402368;5.402368;1.264920;Heavy Paper;8_pass;Freefall;3.428445;5.838067;6.080093;12.919908;3.038000;5.564000;6.159000;13.069000;Wide
