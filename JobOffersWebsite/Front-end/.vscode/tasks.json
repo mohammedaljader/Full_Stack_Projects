@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "MY_TASK",
+            "type": "shell",
+            "command": "C:/Users/malja/Downloads/z3-4.8.13-x64-win/z3-4.8.13-x64-win/bin/test.bat ${file}",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

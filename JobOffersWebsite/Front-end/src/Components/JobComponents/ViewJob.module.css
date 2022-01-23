@@ -1,0 +1,9 @@
+.containerViewJob{
+    margin-left: 200px ;
+}
+
+@media screen and (max-width: 960px) {
+    .containerViewJob{
+        margin-left: auto ;
+    }
+}

@@ -1,0 +1,19 @@
+.btn{
+    color: #fff ;
+    background: #cc2062
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    color: #000;
+}
+
+.notAllowed {
+    align-items: center;
+    font-size: 8em;
+    text-shadow: 0 0 6px #cc2062;
+  }
