@@ -17,7 +17,7 @@ A Websockets assignment using Websockets, Java, Spring boot, React
 ## Backend: 
 Java and Spring Bool
 ## Frontend: 
-React, Bootstrap, HTML and CSS
+React, Material UI, HTML and CSS
 ## Database 
 MYSQL 
 ## Tests
